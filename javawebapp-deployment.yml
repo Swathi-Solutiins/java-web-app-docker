@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: dockerhandson/java-web-app
+      - image: 52.66.246.229:8083/practice-java-app:${buildNumber}
         name: javawebapp
         ports:
         - name: javawebapp
