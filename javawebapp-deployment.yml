@@ -13,6 +13,8 @@ spec:
         name: javawebapp
     spec:
       containers:
+      imagePullSecret:
+      - name: dockersecret
       - image: 52.66.246.229:8083/practice-java-app:${buildNumber}
         name: javawebapp
         ports:
